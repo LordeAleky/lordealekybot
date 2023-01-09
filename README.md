@@ -1,23 +1,13 @@
 Comandos 
 
-pkg install coreutils
+apt-get update
+apt-get upgrade
+apt-get install nodejs
+apt-get install libwebp
+apt-get install mc
+apt-get install ffmpeg
+apt-get install wget
+apt-get install tesseract
+npm install
 
-termux-setup-storage 
-
-cd 
-
-git init 
-
-git add . 
-
-git config --global user.email "seuemail@exemplo.com" 
-
-git config --global user.name "SeuNome" 
-
-git commit -m "First commit" 
-
-git remote add origin "sua GitHub" 
-
-git remote -v 
-
-git push origin master
+echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
